@@ -98,10 +98,10 @@ header a {
 
 .blogs-container {
     width: 100%;
-    height:100vh;
+    height:auto;
 }
 
-.blogs-container .last-blog {
+.blogs-container .star-blog {
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 100%;
