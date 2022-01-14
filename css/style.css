@@ -13,6 +13,7 @@
 
 html {
     font-size: 62.5%;
+    
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     bottom: 0;
     right: 0;
     font-size: 1.6rem;
+    font-family: 'Roboto Mono',monospace;
 }
 
 header {
