@@ -25,12 +25,11 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 12rem;
     display: grid;
     grid-template-rows: .1fr .2fr;
+    width: 100%;
+    height: 12rem;
+    background-color: var(--soft-white);
 }
 
 header a {
