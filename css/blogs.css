@@ -119,12 +119,12 @@ header a {
     font-size: 1.9rem;
     font-weight: bold;
     line-height: 2rem;
-    margin-left: 1rem;
+    margin: 1rem;
 }
 
 .blog-img > span {
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     background-image: url('../assets/1.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -134,8 +134,6 @@ header a {
 .blogs-container .blog-description {
     display: grid;
     grid-row: 2;
-    height: 30rem;
-
 }
 
 .blog-description > h2 {
@@ -143,7 +141,6 @@ header a {
     font-weight: bold;
     line-height: 3.5rem;
     margin:0 auto;
-    margin-bottom: 2rem;
 }
 
 .blog-description > p {
@@ -172,4 +169,31 @@ header a {
     width: 100%;
     height: auto;
     background-color: var(--soft-white);
+}
+
+.last--blogs-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.last--blogs-container {
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    margin: 0 auto;
+}
+
+.blogs-details {
+    width: 100%;
+    height: 40rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.blog-details .blogs-img {
+    
 }
