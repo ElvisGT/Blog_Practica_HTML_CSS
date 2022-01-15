@@ -1,7 +1,6 @@
 :root {
     --main-green:#48cfad;
     --main-grey:#434a54;
-    --back:#000;
     --soft-white:#e9ecef;
     --soft-grey:#ccd1d9;
 }
@@ -31,7 +30,7 @@ header {
 header a {
     padding-left: 1rem;
     text-decoration: none;
-    color: var(--back);
+    
     
 }
 
@@ -91,8 +90,14 @@ header a {
 }
 
 .bar--nav-about {
+    margin-right: .5rem;
     font-weight: bold;
     border-bottom: 1px solid black;
+}
+
+.bar--nav-sm a{
+    text-decoration: none;
+    color: black;
 }
 
 .container-img {
@@ -115,31 +120,58 @@ header a {
     margin: 1rem 0;
     font-size: 2.5rem;
     font-weight: bold;
-    color: var(--back);
+    
 }
 
 .container-details h2 {
     margin: 1rem 0;
     font-size: 1.8rem;
     font-weight: 300;
-    color: var(--back);
+    
 }
 
 .container-details p {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.2rem;
-    color: var(--back);
-}
-
-
-.container-contact {
     
 }
 
 
+.container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    background-color: var(--soft-grey);
+}
+
+.container-contact h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.container-contact p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.contact-mail {
+    text-align: center;
+}
+
+.img-contact {
+    width: 6rem;
+    margin-top: .5rem;
+}
 
 
+
+.contact-socialNetworks {
+    grid-column: 2;
+    text-align: center;
+}
 
 
 .footer {
