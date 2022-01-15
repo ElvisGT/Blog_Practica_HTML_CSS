@@ -30,7 +30,7 @@ header {
 header a {
     padding-left: 1rem;
     text-decoration: none;
-    
+    color: black;
     
 }
 
@@ -93,11 +93,6 @@ header a {
     margin-right: .5rem;
     font-weight: bold;
     border-bottom: 1px solid black;
-}
-
-.bar--nav-sm a{
-    text-decoration: none;
-    color: black;
 }
 
 .container-img {
