@@ -96,9 +96,24 @@ header a {
     border-bottom: 1px solid black;
 }
 
+.container-img {
+    width: 90%;
+    margin: 0 auto;
+}
 
+.container-img img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
 
+.container-details {
+    
+}
 
+.container-contact {
+    
+}
 
 
 
