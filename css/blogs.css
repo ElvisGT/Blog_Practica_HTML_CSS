@@ -171,10 +171,11 @@ header a {
     background-color: var(--main-green);
 }
 
-.last-blog {
-    width: 100%;
+.last-blogs {
+    width: 90%;
     height: auto;
-    background-color: var(--soft-white);
+    border-top: 1px solid black;
+    margin: 0 auto;
 }
 
 .last--blogs-title {

@@ -1,2 +1,34 @@
-.home-container h1 {
+.blogs-container .star-blog {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--soft-grey);
+}
+
+.blog-img {
+    margin-bottom: 2rem;
+    margin-left: .8rem;
+}
+
+.blogs-container .blog-description {
+    width: 50%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.blog-description > p {
+    margin: .8rem 2rem;
+}
+
+.last--blogs-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.blogs-details {
+    width: 50%;
+    padding: 2rem;
 }
