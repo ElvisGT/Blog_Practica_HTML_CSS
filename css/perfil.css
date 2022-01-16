@@ -1,0 +1,225 @@
+:root {
+    --main-green:#48cfad;
+    --main-grey:#434a54;
+    --soft-white:#e9ecef;
+    --soft-grey:#ccd1d9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono',monospace;
+}
+
+header {
+    display: grid;
+    grid-template-rows: .1fr .2fr;
+    width: 100%;
+    height: 12rem;
+}
+
+header a {
+    padding-left: 1rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.header-social-networks {
+    display: grid;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--main-green);
+    box-shadow: 0 0 .5rem 0 rgba(89,73,30,0.16);
+}
+
+.header--social--networks-container {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    align-items: center;
+    width: 60%;
+    margin-right: 2rem;
+}
+
+
+.header--social--networks-container .facebook {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-image: url('../assets/Social/001-facebook.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header--social--networks-container .linkedin {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-image: url('../assets/Social/010-linkedin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bar-nav {
+    width: 100%;
+}
+
+
+.bar--nav-logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.bar--nav-logo img {
+    width: 21.5rem;
+
+}
+
+.bar--nav-about {
+    margin-right: .5rem;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+
+.about-me {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: auto;
+    background-color: var(--soft-grey);
+}
+
+.about-me-img {
+    width: 90%;
+    height: auto;
+    margin: 2rem auto 0;
+}
+
+.about-me-img img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+
+.about-me-description {
+    width: 90%;
+    margin: 2rem auto 0;
+}
+
+.about-me-description h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-me-description p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+}
+
+.projects h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects article {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.projects article > h3 {
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+}
+
+.projects article > p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+}
+
+.container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    background-color: var(--soft-grey);
+}
+
+.container-contact h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+}
+
+.container-contact a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: .5rem;
+}
+
+.container-contact p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.contact-mail {
+    text-align: center;
+}
+
+.img-contact {
+    width: 6rem;
+    margin-top: .5rem;
+}
+
+
+
+.contact-socialNetworks {
+    grid-column: 2;
+    text-align: center;
+}
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 6rem;
+    background-color:var(--main-green);
+}
+
+.footer p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}

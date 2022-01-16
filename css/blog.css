@@ -1,8 +1,8 @@
 :root {
     --main-green:#48cfad;
     --main-grey:#434a54;
-    --back:#000;
     --soft-white:#e9ecef;
+    --soft-grey:#ccd1d9;
 }
 
 * {
@@ -13,15 +13,9 @@
 
 html {
     font-size: 62.5%;
-    
 }
 
 body {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     font-size: 1.6rem;
     font-family: 'Roboto Mono',monospace;
 }
@@ -31,13 +25,13 @@ header {
     grid-template-rows: .1fr .2fr;
     width: 100%;
     height: 12rem;
-    background-color: var(--soft-white);
 }
 
 header a {
     padding-left: 1rem;
     text-decoration: none;
-    color: var(--back);
+    color: black;
+    
 }
 
 .header-social-networks {
@@ -96,57 +90,104 @@ header a {
 }
 
 .bar--nav-about {
+    margin-right: .5rem;
     font-weight: bold;
     border-bottom: 1px solid black;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    width: 100%;
-    height: 80vh;
-    background-image: url('https://i.postimg.cc/y8VNB4QQ/Cover.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.container-img {
+    width: 90%;
+    margin: 0 auto;
 }
 
-.home-container {
-    display: grid;
-    grid-column: 2;
-    align-items: center;
+.container-img img {
     width: 100%;
-    
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.container-details {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.container-details h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: bold;
     
 }
-.home-container h1 {
-    width: 30rem;
-    font-size: 2.2rem;
-    font-family: 'Roboto Mono',monospace;
-    color: var(--soft-white);
+
+.container-details h2 {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+    
+}
+
+.container-details p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    
+}
+
+
+.container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    background-color: var(--soft-grey);
+}
+
+.container-contact h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+}
+
+.container-contact a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: .5rem;
+}
+
+.container-contact p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.contact-mail {
     text-align: center;
 }
 
-.home-container .home-button {
-    display: grid;
+.img-contact {
+    width: 6rem;
+    margin-top: .5rem;
+}
+
+
+
+.contact-socialNetworks {
+    grid-column: 2;
+    text-align: center;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 6rem;
+    background-color:var(--main-green);
 }
 
-.home-button button {
-    width: 10rem;
-    height: 4rem;
-    font-size: 1.7rem;
-    font-family: 'Roboto Mono',monospace ;
-    background-color: var(--main-green);
-    color: var(--back);
-    border: none;
-    border-radius: .8rem;
-    transition: .1s;
-    
-}
-
-.home-button button:active {
-    background-color: var(--soft-white);
+.footer p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
 }
