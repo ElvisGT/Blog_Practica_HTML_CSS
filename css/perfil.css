@@ -72,13 +72,11 @@ header a {
 }
 
 .bar-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     width: 100%;
 }
 
 
-.bar--nav-logo, .bar--nav-sm {
+.bar--nav-logo {
      display: flex;
      justify-content: center;
      align-items: center;
