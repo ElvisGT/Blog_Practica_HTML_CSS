@@ -1,9 +1,20 @@
+:root {
+    --main-green:#48cfad;
+    --main-grey:#434a54;
+    --soft-white:#e9ecef;
+    --soft-grey:#ccd1d9;
+}
+
 .blogs-container .star-blog {
     display: flex;
     align-items: center;
     width: 100%;
     height: auto;
     background-color: var(--soft-grey);
+}
+
+.blogs-button:hover {
+    background-color: var(--main-green);
 }
 
 .blog-img {
