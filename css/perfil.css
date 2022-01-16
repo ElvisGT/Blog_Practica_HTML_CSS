@@ -96,7 +96,6 @@ header a {
 
 .about-me {
     display: grid;
-    grid-template-rows: 1fr 1fr;
     width: 100%;
     height: auto;
     background-color: var(--soft-grey);
@@ -144,12 +143,18 @@ header a {
     text-align: center;
 }
 
-.projects article {
+.projects-container {
     width: 90%;
-    margin: 2rem auto;
+    margin: 0 auto;
+    border-top: 1px solid black;
 }
 
-.projects article > h3 {
+.projects-article {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.projects-article > h3 {
     margin-top:2rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
@@ -157,7 +162,7 @@ header a {
     
 }
 
-.projects article > p {
+.projects-article > p {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.2rem;
