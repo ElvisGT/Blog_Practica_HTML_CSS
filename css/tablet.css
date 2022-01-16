@@ -42,3 +42,7 @@
     width: 50%;
     padding: 1rem;
 }
+
+.about-me {
+    grid-template-columns: 1fr 1fr;
+}
